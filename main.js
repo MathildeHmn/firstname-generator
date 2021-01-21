@@ -3,7 +3,6 @@ const maleFirstname = ["Gabriel", "Raphaël", "Léo", "Louis", "Lucas", "Adam", 
 const femaleFirstname = ["Emma", "Jade", "Louise", "Alice", "Chloé", "Inès", "Lina", "Léa", "Rose", "Léna", "Anna", "Mila", "Mia", "Ambre", "Elena", "Julia", "Manon", "Juliette", "Lou", "Zoé", "Camille", "Lola", "Eva", "Agathe", "Jeanne", "Lucie", "Nina", "Sarah", "Romane", "Inaya", "Charlotte", "Léonie", "Adèle", "Romy", "Iris", "Luna", "Louna", "Sofia", "Margaux", "Léana", "Clémence", "Olivia", "Elise", "Victoria", "Clara", "Victoire", "Aya", "Margot", "Noûr", "Giulia"];
 
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
-
 const getRandomName = () => `${maleFirstname[getRandomNumber(maleFirstname.length)]}
                                 ${femaleFirstname[getRandomNumber(femaleFirstname.length)]}`;
 
