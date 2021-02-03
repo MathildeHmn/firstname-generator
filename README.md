@@ -4,9 +4,7 @@ FR -
 
 ATTENTION : Pour pouvoir consulter le contenu de ce projet, bien sélectionner la branche "master" plutôt que la branche "main".
 
-Un petit générateur de prénoms masculins et féminins très simple développé avec HTML5, CSS3 et JavaScript.
-J'ai utilisé des constantes de prénoms, ensuite j'ai créé des constantes "random" pour me donner un nombre et un nom au hasard.
-Ensuite ma constante setRandomName me permet de récupérer les noms (en l'occurence un masculin et un féminin), et enfin j'ai une méthode qui permet vulgairement de générer des noms au clic, et un affichage.
+C'est un générateur de prénoms masculins et féminins très simple développé avec HTML/CSS et JavaScript. J'ai utilisé des constantes de prénoms et des constantes "random" pour me donner un nombre et un nom au hasard. Ensuite, une autre constante permet de récupérer les noms, et enfin une méthode qui permet de générer des noms aux clic, et un affichage.
 Pour voir ce générateur, vous pouvez téléchargés les fichiers zip et ensuite, ouvrez le dossier décompressé dans votre IDE. Après, ouvrez le fichiers HTML dans votre navigateur web pour découvrir le projet.
 Vous verrez alors une question qui vous demande si vous souhaitez générer un prénom, en l’occurence, le générateur vous fera deux propositions, un prénom masculin et un féminin. Vous aurez juste à appuyer sur le bouton « Découvrir les propositions » pour obtenir l’affichage des prénoms.
 
