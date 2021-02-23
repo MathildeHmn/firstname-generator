@@ -8,7 +8,7 @@ const getRandomName = () => `${maleFirstname[getRandomNumber(maleFirstname.lengt
 
 const setRandomName = () => {
     document.getElementById('random-name').innerText = getRandomName();
-}
+};
 
 document.getElementById('generate').addEventListener('click', setRandomName);
 
